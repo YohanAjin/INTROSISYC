@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onclick="PlayAudio()">
+    <div>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Proyecto!</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Home
+                      <span class="visually-hidden">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="seguridad.html">Seguridad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="etiquetas.html">Etiquetas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Sistemas.html">Sistemas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="yo.html">El desarrollador</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <br>
+    <br>
+  <div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center><p class="text-warning">¡Hola, querido lector! Soy Yohan Caleb y te doy la bienvenida a mi página web. 
+        Este sitio ha sido desarrollado como parte de mi proyecto final para el curso de Introducción a la Ingeniería Sistemas.
+        Debo admitir que no me siento del todo cómodo escribiendo sobre mí en un dominio publico, pero entiendo la 
+        importancia de compartir un poco sobre mi persona en este proyecto.</p></center><br>
+    <center><p class="text-warning">
+        Nací el 21 de marzo de 2006. Gran parte de mi infancia transcurrió en la casa de mi abuela, ya que mis padres trabajaban por
+        muchas horas. Comencé mi educación formal a los 5 años, en un colegio privado. Mis experiencias en preprimaria
+        y primaria fueron positivas dentro de lo que cabe, estudie en un colegio privado. Sin embargo, al iniciar basicos, 
+        me cambiaron de colegio, lo que representó un nuevo desafío en mi vida académica y social. Apesar de ello, todo salio bien, me la pase mejor.
+        En 2020, el mundo enfrentó una pandemia que alteró radicalmente nuestras vidas. Las clases se volvieron virtuales, lo que supuso una adaptación 
+        significativa tanto para estudiantes como para profesores y sus metodos de enseñanza.
+        </p></center> <br>
+    <center><p class="text-warning">En 2021, me volvieron a cambiar de colegio, lo que resultó en la pérdida de contacto con algunos compañeros de años 
+        anteriores. Las clases continuaron siendo completamente virtuales hasta 2023, año en que estaba concluyendo 
+        mis estudios de bachillerato y preparándome para graduarme. Desde pequeño, siempre me ha fascinado la informática. 
+        Tenía claro que quería estudiar una ingeniería, y varios eventos durante la pandemia reafirmaron mi decisión de optar 
+        por la Ingeniería en Sistemas.</p></center><br>
+    <center><p class="text-warning">Este año comencé mis estudios universitarios, aplicando a la carrera que siempre había deseado. Aunque ha sido 
+        un desafío y no ha cumplido al cien por cien con mis expectativas, quizás debido a las altas expectativas 
+        que tenía sobre la carrera, o sobre mí mismo, sigo dando una buena cara. Actualmente, estoy enfocado en desarrollar disciplina, 
+        una habilidad que me ha costado adquirir. Sin embargo, ya casi cumplo un año desde que decidí cambiar y mejorar en este aspecto, 
+        y sigo trabajando constantemente para alcanzar mis metas.</p></center><br><br><br><br>
+    <center><p class="text-success">Yohan Caleb Ajin Iquique 000148190</p></center>
+  </div>
+  <div>
+    <center><img src="images/yo.jpeg" width="500" height="500"></center>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+<style>
+  body{
+    background-image: url("images/5.gif"); 
+    background-position: center 25%; 
+    background-size: cover;
+      }
+    p{
+        text-align: justify;
+    }
+</style>
+<audio id="audio" loop>
+  <source src="audio/audio.mp3" type="audio/mpeg">
+</audio>
+<script>
+  function PlayAudio(){
+      document.getElementById("audio").play();
+  }
+</script>
+</body>
+</html>

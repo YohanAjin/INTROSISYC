@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onclick="PlayAudio()">
+    <div>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Proyecto!</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Home
+                      <span class="visually-hidden">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="seguridad.html">Seguridad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="etiquetas.html">Etiquetas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Sistemas.html">Sistemas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="yo.html">El desarrollador</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <br>
+    <br>
+  <div>
+  <div>
+    <center><strong><h1 class="text-success">Ingeniería en Sistemas.</h1></strong></center>
+  </div>
+  <div>
+    <br>
+    <br>
+    <center><strong><p class="text-warning">La ingeniería de sistemas es un campo interdisciplinario de la 
+        ingeniería que permite estudiar y comprender la realidad, con el enfoque de implementar u optimizar 
+        sistemas complejos. Puede también verse como la aplicación tecnológica de la teoría de sistemas a los 
+        esfuerzos de la ingeniería, adoptando en todo este trabajo el paradigma sistémico.</p></center></strong>
+        <br>
+    <center><strong><p class="text-warning">Un ingeniero en sistemas es aquel que se encarga de la lógica 
+            detrás de cada sistema complejo, debe tener conocimiento en las diferentes estructuras de datos 
+            e información.</p></center></strong>
+        <br>
+    <center><strong><p class="text-warning">Un ingeniero en sistemas NO es solamente un programador, ya que
+         el ingeniero en sistemas programa porque toda la infraestructura de datos actual se maneja con programas
+        informáticos, si está infraestructura fuera a lápiz y papel el ingeniero en sistemas debería ser capaz de 
+        desarrollar un sistema óptimo con lápiz y papel. <br> Prácticamente somos los responsables del correcto uso
+        de la información que una empresa genere, así como su correcta implementación ya que la información es
+        poder. <br><br> El ingeniero en sistemas debe ser capaz de capacitar y ser crítico, no solo con los demás 
+        sino que también, con su propio trabajo. <br>Un ingeniero en sistemas debe estar capacitado y entendido 
+        con diferentes protocolos de seguridad, de esto dependerá que tan seguro este la información sensible que 
+        una entidad pueda tener.<br><br>Elegí esta carrera por diferentes motivos, creo que estamos de acuerdo 
+        que varios eligen está carrera pensando que es simple informática, yo pensaba eso y veo que me he equivocado.
+        Quiero desarrollar la capacidad creativa de resolver diferentes conflictos, eso en cualquier ingeniería 
+        lo pueden hacer pero es el ingeniero en sistemas el que encuentra la solución más óptima, por los 
+        diferentes esquemas y diagramas que el puede desarrollar, perfeccionando su solución</p></center></strong>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div>
+    <center><img src="images/meme.jpg" width="480" height="280"></center>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+<style>
+  body{
+    background-image: url("images/4.gif"); 
+    background-position: center 25%; 
+    background-size: cover;
+      }
+    p{
+        text-align: justify;
+    }
+</style>
+<audio id="audio" loop>
+  <source src="audio/audio.mp3" type="audio/mpeg">
+</audio>
+<script>
+  function PlayAudio(){
+      document.getElementById("audio").play();
+  }
+</script>
+</body>
+</html>

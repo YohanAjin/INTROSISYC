@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onclick="PlayAudio()">
+  <div>
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Proyecto!</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="seguridad.html">Seguridad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="etiquetas.html">Etiquetas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Sistemas.html">Sistemas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="yo.html">El desarrollador</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</div>
+<br>
+<br>
+<div>
+    <br>
+<div>
+    <h1 class="text-warning"><center>Conceptos y recomendaciones de seguridad en los equipos.</center></h1>
+</div>
+<div>
+    <br>
+    <br>
+    <center><img src="images/2.png" alt="100px"></center>
+    <br>
+    <figcaption class="blockquote-footer">
+       <center> Un hacker entrando a mi ordenador ya que descargué software pirata <cite title="Source Title">!!</cite></center>
+        <br>
+        <br>
+      </figcaption>
+</div>
+<div>
+    <p class="text-success">Muchas veces damos por sentada nuestra seguridad a la hora de usar un dispositivo de cómputo, cuando el internet puede ser comparado a una laguna infestada de pirañas y el usuario promedio a un pez simple. Por eso, en esta sección de mi proyecto le proporcionaré consejos y conceptos a tener en cuenta cuando utilizamos nuestro equipo.</p>
+    <br>
+    <h4 class="text-primary">Consejos rapidos:</h4><br>
+    <ul>
+        <li class="text-secondary">No descargar sotware pirata.</li>
+        <li class="text-secondary">Realizar mantenimientos preventivos de manera semestral.</li>
+        <li class="text-secondary">Siempre actualice el sistema operativo, aunque sea molesto. . .</li>
+        <li class="text-secondary">Manten limpia su área de trabajo.</li>
+        <li class="text-secondary">NO use la mismas contraseñas para todos los registros.</li>
+        <li class="text-secondary">Tenga protección contra cambios de voltaje a la fuente de poder de su ordenador.</li>
+        <li class="text-secondary">Evitar redes publicas.</li>
+        <li class="text-secondary">Tenga instalado un antivirus.</li>
+        <li class="text-secondary">Utilice el Autenticador de Dos Pasos.</li>
+      </ul>
+    <h4 class="text-primary">Algunos Conceptos:</h4><br>
+    <ul>
+        <li class="text-secondary">Honeypot: <p class="text-info">Es un solo sistema o redes los cuales se "sacrifican" y usan de señuelo con el objetivo de recibir ciberataques,  esto con el proposito de estudiar a los atacantes.</p></li>
+        <li class="text-secondary">Firewall: <p class="text-info">Esta herramienta del sistema operativo se encarga de bloquear conexiones potencialmente peligrosas.</p></li>
+        <li class="text-secondary">Phishing: <p class="text-info">Técnica que usan los atacantes donde mediante un ansuelo (Correos, mensajes privados, llamadas, etc) haciendose pasar por otra persona u entidad, esto con el fin de robar la información personal y sencible de la victima.</p></li>
+        <li class="text-secondary">Cookie: <p class="text-info">Son pequeños archivos los cuales recopilan diferente información del usuario (Inicio de sesión, busquedas, intereses, etc.) con el objetivo de tener una experecia más personalizada y comoda, le damos acceso cuando las aceptamos y se guardan en el dispositivo.</p></li>
+    </ul>
+</div>
+<div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<center><h2 class="text-danger">HAGA CLICK PARA DESCARGAR "FOTOCHOP" DE MANERA GRATUITA!!1!</h2></center>
+</div>
+<div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center><button id="BotonFalso" class="btn btn-success">DESCARGAR!!</button></center>
+    <br>
+    <br>
+</div>
+<style>
+    body{
+        background-image: url("images/f.gif"); 
+                background-position: center 25%; 
+                background-size: cover;
+    }
+    p{
+        text-align: justify;
+    }
+</style>
+<script>
+    document.getElementById('BotonFalso').onclick = function(){
+    alert('¿No aprendió nada, verdad? :(');
+}
+      function PlayAudio(){
+      document.getElementById("audio").play();
+  }
+</script>
+<audio id="audio" loop>
+  <source src="audio/hack.mp3" type="audio/mpeg">
+</audio>
+</body>
+</html>

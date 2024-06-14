@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onclick="PlayAudio()">
+    <div>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Proyecto!</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Home
+                      <span class="visually-hidden">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="seguridad.html">Seguridad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="etiquetas.html">Etiquetas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Sistemas.html">Sistemas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="yo.html">El desarrollador</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <br>
+    <br>
+  <div>
+    <center><strong><h1 class="text-success">Principales Etiquetas Utilizadas en esta Página.</h1></strong></center>
+  </div>
+  <div>
+    <br>
+    <br>
+    <center><p class="text-primary"><small>HTML no es un lenguaje de programación, eso lo sabe todo el mundo, ya que el archivo utiliza un sistemas de etiquetas para dar instrucciones de que debe mostrar nuestro navegador, esto sin tener que interpretarlo o compilarlo. Aquí un listado de algunas etiquetas que, en menor o mayor medida, me han servido para crear esta página web.</small></p></center>
+  </div>
+  <div>
+    <ul>
+        <li class="text-secondary">< html ><p class="text-warning">Es la etiqueta más importante de todas ya que es la que inicia el archivo html, por consecuente tambien las demas etiquetas.</p></li>
+        <li class="text-secondary">< head ><p class="text-warning">Aquí adentro van todos los metadatos, conexiones a demas archivos en la carpeta(CSS,bootstrap,JS) y el título de la página.</p></li>
+        <li class="text-secondary">< body ><p class="text-warning">Dentro de esta etiqueta entra todo el contenido visible en la página web. Le coloque onclick para que reproduzca audio cuando el usuario interraccione con la página por primera vez.</p></li>
+        <li class="text-secondary">< div ><p class="text-warning"> Me permitió el separar por divisiones los diferentes contenedores de la página para que así no tenga inconvenientes al momento de diseñar.</p></li>
+        <li class="text-secondary">< br ><p class="text-warning">Su proposito es generar un salto de línea, permitiendo que el contenido visible esté mejor estructurado.</p></li>
+        <li class="text-secondary">< style. ><p class="text-warning">La utilice para modificar el estilo de la página sin necesidad de modificar el archivo de bootstrap ya anexado.</p></li>
+        <li class="text-secondary">< script. ><p class="text-warning">Me permitió inyectar código de JS al archivo html sin necesidad de conectar otro archivo. La página se vuelve más interactiva a causa de eso.</p></li>
+    </ul>
+  </div>
+<style>
+  body{
+    background-image: url("images/3.gif"); 
+    background-position: center 25%; 
+    background-size: cover;
+      }
+      p{
+        text-align: justify;
+    }
+</style>
+<audio id="audio" loop>
+  <source src="audio/audio.mp3" type="audio/mpeg">
+</audio>
+<script>
+  function PlayAudio(){
+      document.getElementById("audio").play();
+  }
+</script>
+</body>
+</html>
